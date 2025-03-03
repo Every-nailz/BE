@@ -5,8 +5,8 @@ const express = require('express');
 const app = express();
 
 
-  // .env에서 포트 가져오기 
-  const PORT = process.env.PORT;
+// .env에서 포트 가져오기 
+const PORT = process.env.PORT;
 
 // JSON 요청을 처리할 수 있도록 설정
 app.use(express.json());
